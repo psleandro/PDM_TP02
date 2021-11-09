@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDM_TP02.ContatoForm">
+    <ContentPage.Content>
+        <StackLayout Padding="12">
+            <Label Text="Criar Contato" FontSize="24" HorizontalOptions="Center" />
+            <Entry x:Name="inputNome" Placeholder="Nome" />
+            <Entry x:Name="inputIdade" Placeholder="Idade" Keyboard="Numeric" />
+            <Entry x:Name="inputProfissao" Placeholder="Profissao" />
+            <Entry x:Name="inputPais" Placeholder="Pais" />
+            <Button x:Name="btnCriarContato" Text="Criar contato" Clicked="CriarContato" >
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

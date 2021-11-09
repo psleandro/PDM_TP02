@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDM_TP02.MainPage">
+
+    <StackLayout
+        Padding="8"
+     >
+        <Label 
+           Text="Style Resources" 
+           HorizontalOptions="Center"
+           TextColor="Blue"
+           FontSize="18"
+        />
+
+        <Button 
+           x:Name="btnEstiloPadrao" Clicked="btnEstiloPadrao_Clicked"
+           Text="ESTILO PADRÃO" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnEstiloDinamico" Clicked="btnEstiloDinamico_Clicked"
+           Text="ESTILO DINÂMICO" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnEstiloEventTrigger" Clicked="btnEstiloEventTrigger_Clicked"
+           Text="ESTILO EVENT TRIGGERS" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnEstiloGlobal" Clicked="btnEstiloGlobal_Clicked"
+           Text="ESTILO GLOBAL" 
+           HorizontalOptions="Fill" 
+        />
+
+        <Label 
+           Text="Passar parametro" 
+           HorizontalOptions="Center"
+           TextColor="Blue"
+           FontSize="18"
+        />
+
+        <Button 
+           x:Name="btnHome" Clicked="btnHome_Clicked"
+           Text="HOME" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnMessagingCenter" Clicked="btnMessagingCenter_Clicked"
+           Text="MESSAGING CENTER" 
+           HorizontalOptions="Fill"
+        />
+
+        <Label 
+           Text="List View" 
+           HorizontalOptions="Center"
+           TextColor="Blue"
+           FontSize="18"
+        />
+
+        <Button 
+           x:Name="btnSimples" Clicked="btnSimples_Clicked"
+           Text="SIMPLES" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnClasseComplexa" Clicked="btnClasseComplexa_Clicked"
+           Text="CLASSE COMPLEXA" 
+           HorizontalOptions="Fill"
+        />
+
+        <Button 
+           x:Name="btnProduto" Clicked="btnProduto_Clicked"
+           Text="PRODUTO" 
+           HorizontalOptions="Fill"
+        />
+
+    </StackLayout>
+
+</ContentPage>

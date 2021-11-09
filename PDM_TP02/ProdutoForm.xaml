@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDM_TP02.ProdutoForm">
+    <ContentPage.Content>
+        <StackLayout Padding="12">
+            <Label Text="Criar Produto" FontSize="24" HorizontalOptions="Center" />
+            <Entry x:Name="inputId" Placeholder="ID DO PRODUTO" Keyboard="Numeric" />
+            <Entry x:Name="inputDescricao" Placeholder="Descricao" />
+            <Entry x:Name="inputCategoria" Placeholder="Categoria" />
+            <Entry x:Name="inputQuantidade" Placeholder="Quantidade" Keyboard="Numeric" />
+            <Entry x:Name="inputPreco" Placeholder="Preco" Keyboard="Numeric" />
+            <Button x:Name="btnCriarProduto" Text="Criar Produto" Clicked="CriarProduto" >
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
